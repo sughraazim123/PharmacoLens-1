@@ -12,7 +12,7 @@ class Severity(Enum):
     MEDIUM = 2
     HIGH = 3
 
-    def __gt__(sef, other):
+    def __gt__(self, other):
         return self.value > other.value
 
     def __str__(self):
